@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/********************************************************/
+/************************ TITLES ************************/
+/********************************************************/
+
+.h1 {
+  @apply text-h1 font-semi-bold;
+}
+
+.h2 {
+  @apply text-h2 font-semi-bold;
+}
+
+.h3 {
+  @apply text-h3 font-semi-bold;
+}
+
+.h4 {
+  @apply text-h4 font-semi-bold;
+}
+
+/********************************************************/
+/************************ BUTTONS ***********************/
+/********************************************************/
+
+/* Button Base Class */
+.btn {
+  @apply inline-flex items-center justify-center border border-transparent rounded-md font-medium focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+/* Primary Button */
+.btn-primary {
+  @apply bg-primary-primary text-white hover:bg-primary-secondary focus:ring-primary-primary;
+}
+.btn-primary:disabled {
+  @apply bg-primary-primary opacity-50 cursor-not-allowed;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  @apply bg-neutral-l_grey text-white hover:bg-neutral-d_grey focus:ring-neutral-grey;
+}
+.btn-secondary:disabled {
+  @apply bg-neutral-l_grey opacity-50 cursor-not-allowed;
+}
+
+/* Tertiary Button */
+.btn-tertiary {
+  @apply bg-neutral-silver text-primary-primary focus:ring-neutral-grey;
+}
+.btn-tertiary:disabled {
+  @apply bg-neutral-silver opacity-50 cursor-not-allowed;
+}
+
+/* Sizes */
+.btn-normal { @apply px-5 py-3 text-base; }
+.btn-medium { @apply px-4 py-2 text-sm; }
+.btn-small { @apply px-2 py-1 text-xs; }
+
+/* Icon Positions */
+.btn-icon-left { @apply flex-row-reverse; }
+.btn-icon-right { @apply flex-row; }
+
+/* Loading State */
+.btn-loading {
+  @apply relative cursor-wait;
+}
+.btn-loading::after {
+  @apply absolute inset-0 flex items-center justify-center;
+  content: 'Loading...';
+  background-color: rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
