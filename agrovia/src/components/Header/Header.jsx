@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from '../../assets/logo.png';
 
 function Header() {
@@ -59,7 +58,7 @@ function Header() {
                 </div>
             </div>
         </header>
-    );
-};
+    )
+}
 
 export default Header;

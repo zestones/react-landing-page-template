@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 // External
 import Swiper from 'swiper';
@@ -6,6 +6,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 
 // Styles
 import './HeroSection.css';
+import HeroImage from '../../assets/hero.svg';
 
 
 function HeroSection() {
@@ -34,11 +35,17 @@ function HeroSection() {
         <section className="hero">
             <div className="swiper-container">
                 <div className="swiper-wrapper">
-                    <div className="swiper-slide hero-slide bg-primary-primary text-white">
-                        <div className="container mx-auto px-4 py-20 text-center">
-                            <h1 className="h1 mb-4">Welcome to Our Website</h1>
-                            <p className="text-lg mb-8">Discover our amazing products and services.</p>
-                            <button className="btn btn-primary btn-normal">Get Started</button>
+                    <div className="swiper-slide hero-slide">
+                        <div className="container mx-auto px-4 py-20 flex items-center">
+                            <div className="container text-start">
+                                <h1 className="h1 mb-4 text-primary-secondary">Lessons and insights <br /> <span className='text-primary-primary'>from 8 years</span></h1>
+                                <p className="text-lg mb-8 text-neutral-grey">Where to grow your business as a photographer: site or social media?</p>
+                                <button className="btn btn-primary btn-normal">Register</button>
+                            </div>
+
+                            <div className="right-container">
+                                <img src={HeroImage} alt="Hero" />
+                            </div>
                         </div>
                     </div>
 
@@ -59,9 +66,9 @@ function HeroSection() {
                     </div>
                 </div>
 
-                <div className="swiper-pagination"></div>
-                <div className="swiper-button-prev"></div>
-                <div className="swiper-button-next"></div>
+                <div className="swiper-pagination "></div>
+                <div className="swiper-button-prev text-primary-primary"></div>
+                <div className="swiper-button-next text-primary-primary"></div>
             </div>
         </section>
     );

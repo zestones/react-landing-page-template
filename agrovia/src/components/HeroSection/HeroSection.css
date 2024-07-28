@@ -34,3 +34,11 @@
 .swiper-pagination {
     bottom: 10px; 
 }
+
+.swiper-pagination-bullet {
+    @apply bg-tint-1; 
+}
+
+.swiper-pagination-bullet-active {
+   @apply text-primary-primary;
+}
