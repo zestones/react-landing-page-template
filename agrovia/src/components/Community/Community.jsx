@@ -14,17 +14,17 @@ function Community() {
             </div>
             <div className="container mx-auto px-4 py-10 flex flex-col items-center">
                 <div className="flex flex-col md:flex-row md:justify-between space-y-4 md:space-y-0 md:space-x-4 w-full">
-                    <div className="community-card flex flex-col items-center max-w-xs w-full">
+                    <div className="community-card flex flex-col items-center max-w-xs w-full shadow-sm p-8">
                         <img src={MemberIcon} alt="Community" />
                         <h3 className="h3 mt-4 mb-2 text-neutral-d_grey text-center">Membership <br />Organisations</h3>
                         <p className="text-lg text-neutral-grey text-center">Our membership management software provides full automation of membership renewals and payments</p>
                     </div>
-                    <div className="community-card flex flex-col items-center max-w-xs w-full">
+                    <div className="community-card flex flex-col items-center max-w-xs w-full shadow-sm p-8">
                         <img src={FacilityIcon} alt="Facility" />
                         <h3 className="h3 mt-4 mb-2 text-neutral-d_grey text-center">National <br />Associations</h3>
                         <p className="text-lg text-neutral-grey text-center">Our membership management software provides full automation of membership renewals and payments</p>
                     </div>
-                    <div className="community-card flex flex-col items-center max-w-xs w-full">
+                    <div className="community-card flex flex-col items-center max-w-xs w-full shadow-sm p-8">
                         <img src={GroupsIcon} alt="Groups" />
                         <h3 className="h3 mt-4 mb-2 text-neutral-d_grey text-center">Clubs And<br /> Groups</h3>
                         <p className="text-lg text-neutral-grey text-center">Our membership management software provides full automation of membership renewals and payments</p>
