@@ -70,7 +70,7 @@
 }
 
 /* Sizes */
-.btn-normal { @apply px-5 py-3 text-base; }
+.btn-normal { @apply px-8 py-3 text-base; }
 .btn-medium { @apply px-4 py-2 text-sm; }
 .btn-small { @apply px-2 py-1 text-xs; }
 
@@ -91,4 +91,24 @@
 
 .hero-slide {
   @apply flex items-center justify-center;
+}
+
+/********************************************************/
+/********************* SCROLL BAR ***********************/
+/********************************************************/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

@@ -11,7 +11,7 @@
     overflow: hidden;
 }
 
-::-webkit-scrollbar {
+.swiper-container::-webkit-scrollbar {
     display: none; /* Safari and Chrome */
 }
     

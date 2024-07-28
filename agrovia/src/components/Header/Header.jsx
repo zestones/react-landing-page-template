@@ -2,7 +2,7 @@ import logo from '../../assets/logo.png';
 
 function Header() {
     return (
-        <header className="bg-neutral-silver shadow ">
+        <header className="bg-neutral-silver">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     <div className="shrink-0 flex items-center">

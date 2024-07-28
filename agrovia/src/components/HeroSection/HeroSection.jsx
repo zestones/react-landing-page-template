@@ -35,10 +35,10 @@ function HeroSection() {
         <section className="hero">
             <div className="swiper-container">
                 <div className="swiper-wrapper">
-                    <div className="swiper-slide hero-slide">
-                        <div className="container mx-auto px-4 py-20 flex items-center">
+                    <div className="swiper-slide hero-slide bg-neutral-silver">
+                        <div className="container mx-auto px-14 py-20 flex items-center">
                             <div className="container text-start">
-                                <h1 className="h1 mb-4 text-primary-secondary">Lessons and insights <br /> <span className='text-primary-primary'>from 8 years</span></h1>
+                                <h1 className="h1 mb-4 text-neutral-d_grey">Lessons and insights <br /> <span className='text-primary-primary'>from 8 years</span></h1>
                                 <p className="text-lg mb-8 text-neutral-grey">Where to grow your business as a photographer: site or social media?</p>
                                 <button className="btn btn-primary btn-normal">Register</button>
                             </div>

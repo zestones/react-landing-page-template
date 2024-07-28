@@ -1,7 +1,7 @@
-import React from 'react'
 
 import Header from './components/Header/Header'
 import HeroSection from './components/HeroSection/HeroSection'
+import Community from './components/Community/Community'
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
     <>
       <Header />
       <HeroSection />
+      <Community />
     </>
   )
 }

@@ -48,7 +48,7 @@ export default {
         h4: ['20px', '28px'],
       },
       fontWeight: {
-        'semi-bold': 600,
+        'semi-bold': 700,
       },
     },
   },
