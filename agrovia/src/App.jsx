@@ -3,6 +3,7 @@ import Header from './components/Header/Header'
 import HeroSection from './components/HeroSection/HeroSection'
 import Community from './components/Community/Community'
 import Unlock from './components/Unlock/Unlock'
+import Achievements from './components/Achievements/Achievements'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <Community />
       <Unlock />
+      <Achievements />
     </>
   )
 }
