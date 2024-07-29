@@ -33,8 +33,8 @@ function Header() {
 
     const activeLinkClassName = (name) => `
         hover:border-neutral-grey hover:text-neutral-black px-1 pt-1 border-b-2 text-sm font-medium 
-        ${!mobileMenuOpen ? 'inline-flex items-center' : 'flex justify-center w-full text-primary-primary border-transparent'} 
-        ${activeLink === name ? 'border-primary-primary text-gray-900' : 'text-neutral-l_grey border-transparent'}`;
+        ${!mobileMenuOpen ? 'inline-flex items-center' : 'flex justify-center w-full border-transparent'} 
+        ${activeLink === name ? 'border-primary-primary text-primary-primary' : 'text-neutral-l_grey border-transparent'}`;
 
     return (
         <header className="bg-neutral-silver fixed z-50 w-full">
