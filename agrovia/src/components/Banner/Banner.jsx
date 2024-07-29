@@ -1,7 +1,7 @@
 
 function Banner() {
     return (
-        <div className="banner bg-neutral-silver">
+        <div className="banner bg-neutral-silver py-8">
             <div className="container mx-auto flex flex-col justify-center items-center">
                 <h2 className="h2 text-neutral-black py-8 text-center">Pellentesque suscipit <br />fringilla libero eu.</h2>
                 <button className="btn btn-primary btn-normal btn-icon-right mb-8">
