@@ -26,6 +26,8 @@ function Header() {
         };
     }, []);
 
+    const activeLinkClassName = (name) => `hover:border-neutral-grey hover:text-neutral-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${activeLink === name ? 'border-primary-primary text-gray-900' : 'text-neutral-l_grey border-transparent'}`;
+
     return (
         <header className="bg-neutral-silver fixed z-50 w-full">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -41,25 +43,25 @@ function Header() {
                         <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
                             <a
                                 href="#hero"
-                                className={`hover:border-neutral-grey hover:text-neutral-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${activeLink === 'hero' ? 'border-primary-primary text-gray-900' : 'text-neutral-l_grey border-transparent'}`}
+                                className={activeLinkClassName('hero')}
                             >
                                 Home
                             </a>
                             <a
                                 href="#community"
-                                className={`hover:border-neutral-grey hover:text-neutral-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${activeLink === 'community' ? 'border-primary-primary text-gray-900' : 'text-neutral-l_grey border-transparent'}`}
+                                className={activeLinkClassName('community')}
                             >
                                 Services
                             </a>
                             <a
                                 href="#achievements"
-                                className={`hover:border-neutral-grey hover:text-neutral-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${activeLink === 'achievements' ? 'border-primary-primary text-gray-900' : 'text-neutral-l_grey border-transparent'}`}
+                                className={activeLinkClassName('achievements')}
                             >
                                 Features
                             </a>
                             <a
                                 href="#footer"
-                                className={`hover:border-neutral-grey hover:text-neutral-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${activeLink === 'footer' ? 'border-primary-primary text-gray-900' : 'text-neutral-l_grey border-transparent'}`}
+                                className={activeLinkClassName('footer')}
                             >
                                 Contact
                             </a>
@@ -78,7 +80,6 @@ function Header() {
                         >
                             Sign Up
                         </button>
-
                     </div>
                 </div>
             </div>
