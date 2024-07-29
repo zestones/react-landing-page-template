@@ -32,7 +32,7 @@ function HeroSection() {
     }, []);
 
     return (
-        <section className="hero">
+        <section className="hero" id='hero'>
             <div className="swiper-container">
                 <div className="swiper-wrapper">
                     <div className="swiper-slide hero-slide bg-neutral-silver">

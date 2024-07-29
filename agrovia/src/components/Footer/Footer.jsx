@@ -9,7 +9,7 @@ import TwitterIcon from '../../assets/twitter-icon.svg'
 function Footer() {
 
     return (
-        <footer className="bg-neutral-black text-white">
+        <footer className="bg-neutral-black text-white" id='footer'>
             <div className="container mx-auto flex flex-row justify-center items-center px-4 py-10 w-full">
                 <div className="flex flex-col space-y-4 w-1/4">
                     <img src={Logo} alt="Agrovia" className="w-32 h-auto" />

@@ -6,7 +6,7 @@ import TouchIcon from "../../assets/touch-icon.png";
 
 function Achievements() {
     return (
-        <section className="achievements bg-neutral-silver">
+        <section className="achievements bg-neutral-silver" id='achievements'>
             <div className="container mx-auto px-4 py-10 flex flex-row items-center">
                 <div className="container mx-auto px-4">
                     <h2 className="h2 text-neutral-d_grey">Helping a local <br />

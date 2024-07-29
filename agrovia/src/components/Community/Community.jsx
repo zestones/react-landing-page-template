@@ -5,7 +5,7 @@ import FacilityIcon from '../../assets/facility-icon.png'
 
 function Community() {
     return (
-        <section className="community">
+        <section className="community" id='community'>
             <div className="container mx-auto px-4 py-10">
                 <div className="text-center">
                     <h2 className="h2 mb-4 text-neutral-d_grey">Manage your entire community <br />in a single system</h2>
