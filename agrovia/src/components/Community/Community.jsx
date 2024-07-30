@@ -12,7 +12,7 @@ function Community() {
                     <p className="text-base sm:text-lg md:text-xl text-neutral-grey">À qui s&apos;adresse Agrovia ?</p>
                 </div>
             </div>
-            <div className="container mx-auto px-4 py-10 flex flex-col items-center">
+            <div className="container mx-auto px-4 flex flex-col items-center">
                 <div className="flex flex-col sm:flex-row sm:justify-between space-y-4 sm:space-y-0 sm:space-x-4 w-full items-center">
                     <div className="community-card flex flex-col items-center max-w-xs w-full shadow-sm p-6 sm:p-8">
                         <img src={MemberIcon} alt="Grossistes" className='w-16 h-auto' />
