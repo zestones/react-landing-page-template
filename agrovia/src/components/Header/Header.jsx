@@ -45,9 +45,9 @@ function Header() {
                     </div>
                     <div className="flex items-center">
                         <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
-                            <a href="#hero" className={activeLinkClassName('hero')}>Home</a>
+                            <a href="#hero" className={activeLinkClassName('hero')}>Accueil</a>
                             <a href="#community" className={activeLinkClassName('community')}>Services</a>
-                            <a href="#achievements" className={activeLinkClassName('achievements')}>Features</a>
+                            <a href="#achievements" className={activeLinkClassName('achievements')}>Solution</a>
                             <a href="#footer" className={activeLinkClassName('footer')}>Contact</a>
                         </div>
                         <div className="sm:hidden flex items-center">
@@ -58,7 +58,7 @@ function Header() {
                                 aria-expanded="false"
                                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                             >
-                                <span className="sr-only">Open main menu</span>
+                                <span className="sr-only">Ouvrir le menu principal</span>
                                 <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={mobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"} />
                                 </svg>
@@ -66,8 +66,8 @@ function Header() {
                         </div>
                     </div>
                     <div className="hidden sm:ml-6 sm:flex sm:items-center">
-                        <button type="button" className="btn btn-tertiary btn-medium">Log In</button>
-                        <button type="button" className="btn btn-primary btn-medium">Sign Up</button>
+                        <button type="button" className="btn btn-tertiary btn-medium">Se connecter</button>
+                        <button type="button" className="btn btn-primary btn-medium ml-4">S&apos;inscrire</button>
                     </div>
                 </div>
             </div>
@@ -76,13 +76,13 @@ function Header() {
                 id="mobile-menu"
             >
                 <div className="flex flex-col px-2 pt-2 pb-3 space-y-1 justify-center items-center bg-neutral-light_gray">
-                    <a href="#hero" className={activeLinkClassName('hero')}>Home</a>
-                    <a href="#community" className={activeLinkClassName('community')}>Services</a>
-                    <a href="#achievements" className={activeLinkClassName('achievements')}>Features</a>
-                    <a href="#footer" className={activeLinkClassName('footer')}>Contact</a>
+                    <a href="#hero" className={activeLinkClassName('home')}>Accueil</a>
+                    <a href="#community" className={activeLinkClassName('services')}>Services</a>
+                    <a href="#achievements" className={activeLinkClassName('features')}>Fonctionnalités</a>
+                    <a href="#footer" className={activeLinkClassName('contact')}>Contact</a>
                     <hr />
-                    <button type="button" className="btn btn-tertiary btn-medium w-full mt-6 transition duration-300 ease-in-out transform hover:bg-gray-200">Log In</button>
-                    <button type="button" className="btn btn-primary btn-medium w-full mt-2 transition duration-300 ease-in-out transform hover:bg-primary-dark">Sign Up</button>
+                    <button type="button" className="btn btn-tertiary btn-medium w-full mt-6 transition duration-300 ease-in-out transform hover:bg-gray-200">Se connecter</button>
+                    <button type="button" className="btn btn-primary btn-medium w-full mt-2 transition duration-300 ease-in-out transform hover:bg-primary-dark">S&apos;inscrire</button>
                 </div>
             </div>
         </header>
