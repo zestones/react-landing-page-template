@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logo from '../../assets/logo.png';
+import Logo from '../../assets/logo.png';
 
 function Header() {
     const [activeLink, setActiveLink] = useState('hero');
@@ -41,7 +41,7 @@ function Header() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     <div className="shrink-0 flex items-center">
-                        <img className="h-16 w-auto sm:h-12 md:h-16 lg:h-24" src={logo} alt="Logo" />
+                        <img className="h-5 w-auto sm:h-4 md:h-4 lg:h-5" src={Logo} alt="Logo" />
                     </div>
                     <div className="flex items-center">
                         <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">

@@ -21,14 +21,14 @@ function App() {
       <Community />
       <Unlock
         icon={PhoneIcon}
-        title="Découvrez les coulisses de la création <br />d'Agrovia"
-        description="Chez Agrovia, nous révolutionnons le commerce de gros des céréales avec des technologies de pointe et une plateforme innovante. Rejoignez-nous pour explorer les solutions qui transforment l'industrie agroalimentaire et découvrez comment nous facilitons les échanges commerciaux à travers le monde."
+        title="Découvrez les coulisses de la création <br />de Nexent"
+        description="Chez Nexent, nous révolutionnons le commerce de gros des céréales avec des technologies de pointe et une plateforme innovante. Rejoignez-nous pour explorer les solutions qui transforment l'industrie agroalimentaire et découvrez comment nous facilitons les échanges commerciaux à travers le monde."
       />
 
       <Achievements />
       <Unlock
         icon={MobileIcon}
-        title="Comment nous avons conçu notre <br />plateforme Agrovia"
+        title="Comment nous avons conçu notre <br />plateforme Nexent"
         description="Apprenez comment nous avons développé une plateforme innovante pour transformer le commerce de gros des céréales. Nous vous dévoilons les étapes clés de notre processus de conception, les défis que nous avons relevés et les solutions que nous avons mises en place pour faciliter les échanges commerciaux dans l'industrie agroalimentaire."
       />
       <Banner />

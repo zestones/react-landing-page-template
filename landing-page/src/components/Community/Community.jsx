@@ -9,7 +9,7 @@ function Community() {
             <div className="container mx-auto px-4 py-10">
                 <div className="text-center">
                     <h2 className="h2 mb-4 text-neutral-d_grey text-2xl sm:text-3xl md:text-4xl">Gérez toute votre communauté <br />dans un seul système</h2>
-                    <p className="text-base sm:text-lg md:text-xl text-neutral-grey">À qui s&apos;adresse Agrovia ?</p>
+                    <p className="text-base sm:text-lg md:text-xl text-neutral-grey">À qui s&apos;adresse Nexent ?</p>
                 </div>
             </div>
             <div className="container mx-auto px-4 flex flex-col items-center">

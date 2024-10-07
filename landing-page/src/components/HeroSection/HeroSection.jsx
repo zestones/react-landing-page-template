@@ -38,7 +38,7 @@ function HeroSection() {
                     <div className="swiper-slide hero-slide bg-neutral-silver">
                         <div className="container mx-auto px-4 py-10 sm:px-6 md:px-8 lg:px-8 lg:py-20 flex flex-col-reverse lg:flex-row items-center">
                             <div className="text-center lg:text-left lg:w-2/3 mt-10 lg:mt-0">
-                                <h1 className="h1 mb-4 text-neutral-d_grey text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Bienvenue sur <span className='text-primary-primary'>Agrovia</span></h1>
+                                <h1 className="h1 mb-4 text-neutral-d_grey text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Bienvenue sur <span className='text-primary-primary'>Nexent</span></h1>
                                 <p className="text-base sm:text-lg md:text-xl lg:text-lg mb-8 text-neutral-grey">Votre plateforme innovante pour le commerce en gros de céréales.</p>
                                 <button className="btn btn-primary btn-normal">S&apos;inscrire</button>
                             </div>

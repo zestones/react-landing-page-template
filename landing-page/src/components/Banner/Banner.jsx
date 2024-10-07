@@ -3,7 +3,7 @@ function Banner() {
     return (
         <div className="banner bg-neutral-silver py-8">
             <div className="container mx-auto flex flex-col justify-center items-center">
-                <h2 className="h2 text-neutral-black py-8 text-center">Rejoignez Agrovia et <br />transformez le commerce des céréales</h2>
+                <h2 className="h2 text-neutral-black py-8 text-center">Rejoignez Nexent et <br />transformez le commerce des céréales</h2>
                 <button className="btn btn-primary btn-normal btn-icon-right mb-8">
                     Commencez maintenant
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 ml-2">
