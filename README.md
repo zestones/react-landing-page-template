@@ -1,8 +1,10 @@
 
 <div align="center">
-    <img src="./landing-page/public/icon.png" alt="logo image" style="vertical-align: middle;">
-    <h1 style="display: inline-block; vertical-align: middle; margin-left: 10px;">React Landing Page</h1>
+    <img src="./landing-page/public/icon.png" alt="logo image">
+    <h1>React Landing Page</h1>
 </div>
+
+This project is a simple landing page template. It is a responsive and mobile-friendly template that can be used for various purposes. The template is built using React and Tailwind CSS.
 
 ---
 
@@ -11,9 +13,6 @@
 </div>
 
 
-## 📖 About
-
-This is a simple landing page template built using React. It is a responsive and mobile-friendly template that can be used for various purposes. The template is built using React and Tailwind CSS.
 
 ## 🚀 Usage
 
