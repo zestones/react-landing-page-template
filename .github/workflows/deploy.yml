@@ -12,11 +12,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Install dependencies
-        run: cd agrovia && npm install
+        run: cd landing-page && npm install
       - name: Build
-        run: cd agrovia && npm run build
+        run: cd landing-page && npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PAT_TOKEN }}
-          publish_dir: ./agrovia/dist/ 
+          publish_dir: ./landing-page/dist/ 

@@ -1,4 +1,4 @@
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/Logo-BLACK.png';
 import InstagramIcon from '../../assets/instagram-icon.png';
 import WebsiteIcon from '../../assets/website-icon.png';
 import YoutubeIcon from '../../assets/youtube-icon.png';
@@ -10,9 +10,9 @@ function Footer() {
             <div className="container mx-auto px-4">
                 <div className="flex flex-col items-center md:flex-row md:justify-between">
                     <div className="flex flex-col items-center md:items-start mb-8 md:mb-0 text-center md:text-left w-full md:w-1/3">
-                        <img src={Logo} alt="Agrovia" className="w-32 h-auto mb-4" />
+                        <img src={Logo} alt="Nexent" className="w-32 h-auto mb-4" />
                         <p className="text-sm md:text-base mb-4">
-                            Copyright &copy; 2024 Agrovia. <br /> All rights reserved.
+                            Copyright &copy; 2024 Nexent. <br /> All rights reserved.
                         </p>
                         <div className="flex space-x-4 justify-center md:justify-start">
                             <img src={InstagramIcon} alt="Instagram" className="w-8 h-8" />

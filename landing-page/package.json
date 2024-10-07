@@ -1,9 +1,9 @@
 {
-  "name": "agrovia",
+  "name": "react-landing-page-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://zestones.github.io/agrovia-landing-page",
+  "homepage": "https://zestones.github.io/react-landing-page-template",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
